@@ -1,4 +1,4 @@
-package c21tsc.batch.common;
+package com.bryan.dumper.util;
 
 import java.io.File;
 import java.io.FileInputStream;
