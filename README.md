@@ -22,5 +22,15 @@ restoreCSV(String source_file)
 ```
 This method accepts the **full path with file name**. Restores the file from backups folder (TSC Backups) using the latest found backup in there.
 
+```javascript
+destroyCSV(String source_file)
+```
+This method accepts the **full path with file name**. Deletes the file from the source folder, or whatever path you pass on this method.
+
+```javascript
+lockCSV(String source_file)
+```
+This method accepts the **full path with file name**. Changes the file permission of the file in the path passed to this method to **no-read**, **no-write**, **no-execute**.
+
 # Compatibility
 This works on JDK 1.5+
